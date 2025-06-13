@@ -1,0 +1,36 @@
+.wrapper{
+    display: flex;
+    /* height: 100vh; */
+    width: 100vw;
+    justify-content: center;
+    align-items: top;
+    flex-direction: column;
+    gap:10px;
+}
+.accbtn{
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+}
+.accordian{
+    width: 90vw;
+    /* This will divide the items in this div into two columns*/
+    columns: 2 auto;
+    align-items: center;
+}
+.item{
+    background: #9685e7;
+    margin-bottom:10px ;
+    padding: 10px 20px ;
+}
+.accTitle {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;    
+}
+.content{
+    color: #fff;
+    height: auto;
+}
