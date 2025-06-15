@@ -1,26 +1,33 @@
 import React from 'react'
 import './About.css'
-import about_img from '../../assets/about.png'
-import play_icon from '../../assets/play-icon.png'
+import Title from '../../components/Title/Title'
+import about_img from '../../assets/drivelogix_aboutus.jpg'
+/* import play_icon from '../../assets/play-icon.png' */
 
 const About = () => {
   return (
     <div className='about'>
-      <div className='about-left'>
-        <img src={about_img} alt="" className='about-img'/>
-        <img src={play_icon} alt="" className='play-icon'/>
+       <table className="outer-table">
+        <tbody>
+          <tr>
+            <td>
+<div className='about-left'>
+        <img src={about_img} alt="" className='about-img'/>       
       </div>
-      <div className='about-right'>
-        <h3>ABOUT US</h3>
-        <h2>We are team of experied software engineers</h2>
+            </td>
+            <td>
+ <div> 
+        <Title title='Driven by Innovation, Focused on the Auto Industry' superTitle='About Us' /> 
         <p>
-            At TechSolutions, we are dedicated to delivering innovative software 
-            solutions tailored to meet your business needs. 
-            With a team of experienced developers, designers, and project managers, 
-            we strive to exceed expectations and deliver high-quality products
+            We specialize in software and marketing solutions for service and sales professionals in the automotive
+            sector. Our mission is to help you grow your business with modern, effective digital tools.
         </p>
       </div>
-    </div>
+            </td>
+          </tr>      
+     </tbody>
+      </table>
+      </div>
   )
 }
 

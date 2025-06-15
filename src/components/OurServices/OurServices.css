@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px; 
 }
 
 .service img{
@@ -27,8 +28,8 @@
     left:0;
     bottom: 0;
     right: 0;
-    background: rgba(93, 93, 101, 0.3);
-    color: #fff;
+    /* background: rgba(93, 93, 101, 0.3); */
+    color: #666672;
     display: flex;
     flex-direction: column;
     align-items: center;
