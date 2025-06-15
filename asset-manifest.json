@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/drivelogix/static/css/main.e16609f4.css",
-    "main.js": "/drivelogix/static/js/main.b3641804.js",
-    "static/media/about.png": "/drivelogix/static/media/about.a273a54378036437841f.png",
-    "static/media/service-webdev.png": "/drivelogix/static/media/service-webdev.0a7ac31a8896f933f33a.png",
-    "static/media/drivelogix_hero.png": "/drivelogix/static/media/drivelogix_hero.dc4c0755a69ec2327ec7.png",
-    "static/media/service-mobiledev.png": "/drivelogix/static/media/service-mobiledev.f851d905eee931f5268e.png",
-    "static/media/service-softdev.png": "/drivelogix/static/media/service-softdev.1b9f7d1b522bebf257d0.png",
+    "main.css": "/drivelogix/static/css/main.6a400365.css",
+    "main.js": "/drivelogix/static/js/main.48d29942.js",
+    "static/media/services_mobile_app.png": "/drivelogix/static/media/services_mobile_app.ad52010ea0c7c604e291.png",
+    "static/media/services_digital_marketing.png": "/drivelogix/static/media/services_digital_marketing.5b437bf82a147dc4724b.png",
+    "static/media/services_software_development.png": "/drivelogix/static/media/services_software_development.c47af7659ce0b8b2dd54.png",
+    "static/media/services_social_media_marketing.png": "/drivelogix/static/media/services_social_media_marketing.8a4a91cba2d577d18638.png",
+    "static/media/services_web_development.png": "/drivelogix/static/media/services_web_development.da13d5b81a0d84a755bc.png",
     "static/media/details.png": "/drivelogix/static/media/details.c3966de4619efadfc8d9.png",
+    "static/media/drivelogix_aboutus.jpg": "/drivelogix/static/media/drivelogix_aboutus.705d0e5115119974c71a.jpg",
+    "static/media/hero_drivelogix2.jpg": "/drivelogix/static/media/hero_drivelogix2.b078ec5838849d9093fc.jpg",
     "index.html": "/drivelogix/index.html",
-    "main.e16609f4.css.map": "/drivelogix/static/css/main.e16609f4.css.map",
-    "main.b3641804.js.map": "/drivelogix/static/js/main.b3641804.js.map"
+    "main.6a400365.css.map": "/drivelogix/static/css/main.6a400365.css.map",
+    "main.48d29942.js.map": "/drivelogix/static/js/main.48d29942.js.map"
   },
   "entrypoints": [
-    "static/css/main.e16609f4.css",
-    "static/js/main.b3641804.js"
+    "static/css/main.6a400365.css",
+    "static/js/main.48d29942.js"
   ]
 }
