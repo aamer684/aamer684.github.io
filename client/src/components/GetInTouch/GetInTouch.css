@@ -1,0 +1,89 @@
+.getintouch-container {
+    padding: 1rem 0.5rem;
+   /*  background-color: #f9f9f9;  */ 
+    display: flex;
+    justify-content: center;
+}
+
+.getintouch-content { 
+    width: 100%;
+   
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.getintouch-info {
+  flex: 1 1 300px;
+}
+
+.getintouch-info h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #2e7d32;
+}
+
+.getintouch-info p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.getintouch-form {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.getintouch-form input,
+.getintouch-form textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.getintouch-form p{
+    text-align: center;
+}
+.getintouch-form input:focus,
+.getintouch-form textarea:focus {
+  border-color: #2e7d32;
+  outline: none;
+}
+
+.getintouch-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.getintouch-form button {
+  padding: 0.75rem;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.getintouch-form button:hover {
+  background-color: #256428;
+}
+
+
+@media (max-width: 768px) {
+.getintouch-content {
+    flex-direction: column;
+    padding: 1.5rem;
+    }
+}
