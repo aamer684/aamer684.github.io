@@ -80,6 +80,27 @@
   background-color: #256428;
 }
 
+.getintouch-form select {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: white;
+  transition: border-color 0.3s;
+}
+
+.getintouch-form select:focus {
+  border-color: #2e7d32;
+  outline: none;
+}
+
+.getintouch-form label {
+  font-size: 0.95rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
 @media (max-width: 768px) {
 .getintouch-content {

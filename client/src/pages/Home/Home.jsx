@@ -21,7 +21,7 @@ const Home = () => {
           <OurServices />
             </div>         
           <div id="technologies" >         
-          <Technologies />
+            <Technologies />
            </div>    
            <div id="industries" >
             <Industries />

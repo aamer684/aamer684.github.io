@@ -1,0 +1,47 @@
+.industry-detail-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+}
+
+.industry-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.industry-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.industry-subtitle {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.industry-content h3 {
+  margin-top: 25px;
+  color: #1a73e8;
+}
+
+.industry-content p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.industry-navigation {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

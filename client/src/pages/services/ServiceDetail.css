@@ -1,0 +1,29 @@
+.service-detail-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+}
+
+.service-detail-page h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.service-detail-page p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.nav-link {
+  display: inline-block;
+  margin-top: 30px;
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

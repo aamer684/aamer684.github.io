@@ -1,51 +1,24 @@
 const express = require('express');
-const nodemailer = require('nodemailer');
-const { body, validationResult } = require('express-validator');
 const cors = require('cors');
-require('dotenv').config();
+const path = require('path');
+const dotenv = require('dotenv');
+const contactRoutes = require('./routes/contact');
+
+// Load environment variables based on NODE_ENV
+const envFile = process.env.NODE_ENV === 'production' ? '.env.production' : '.env.development';
+dotenv.config({ path: path.resolve(__dirname, envFile) });
 
 const app = express();
+
+// Middleware
 app.use(cors());
 app.use(express.json());
 
-app.post('/api/contact',
-  [
-    body('name').notEmpty().withMessage('Name is required'),
-    body('email').isEmail().withMessage('Valid email is required'),
-    body('message').notEmpty().withMessage('Message is required')
-  ],
-  async (req, res) => {
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(400).json({ errors: errors.array() });
-    }
+// Routes
+app.use('/api/contact', contactRoutes);
 
-    const { name, email, message } = req.body;
-
-    const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
-      }
-    });
-
-    const mailOptions = {
-      from: email,
-      to: process.env.EMAIL_TO,
-      subject: `New Contact Message from ${name}`,
-      text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
-    };
-
-    try {
-      await transporter.sendMail(mailOptions);
-      res.status(200).json({ message: 'Message sent successfully!' });
-    } catch (error) {
-      console.error(error);
-      res.status(500).json({ message: 'Failed to send message.' });
-    }
-  }
-);
-
+// Start server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () =>
+  console.log(`✅ Server running on port ${PORT} [${process.env.NODE_ENV}]`)
+);
