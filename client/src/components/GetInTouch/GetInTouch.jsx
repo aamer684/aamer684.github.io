@@ -35,9 +35,7 @@ const initForm = () =>{
     return;
   }
   setLoading(true); // Start loading
-  try {
-    console.log(JSON.stringify(formData))
-    alert(JSON.stringify(formData))
+  try {  
     const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/api/contact`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
