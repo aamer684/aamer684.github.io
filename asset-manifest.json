@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/drivelogix/static/css/main.53b72033.css",
-    "main.js": "/drivelogix/static/js/main.dc7bc42f.js",
+    "main.js": "/drivelogix/static/js/main.59c79eca.js",
     "static/media/services_mobile_app.png": "/drivelogix/static/media/services_mobile_app.ad52010ea0c7c604e291.png",
     "static/media/services_digital_marketing.png": "/drivelogix/static/media/services_digital_marketing.5b437bf82a147dc4724b.png",
     "static/media/services_software_development.png": "/drivelogix/static/media/services_software_development.c47af7659ce0b8b2dd54.png",
@@ -13,10 +13,10 @@
     "static/media/hero_drivelogix2.jpg": "/drivelogix/static/media/hero_drivelogix2.b078ec5838849d9093fc.jpg",
     "index.html": "/drivelogix/index.html",
     "main.53b72033.css.map": "/drivelogix/static/css/main.53b72033.css.map",
-    "main.dc7bc42f.js.map": "/drivelogix/static/js/main.dc7bc42f.js.map"
+    "main.59c79eca.js.map": "/drivelogix/static/js/main.59c79eca.js.map"
   },
   "entrypoints": [
     "static/css/main.53b72033.css",
-    "static/js/main.dc7bc42f.js"
+    "static/js/main.59c79eca.js"
   ]
 }
