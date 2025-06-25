@@ -30,8 +30,10 @@ import DigitalMarketing from './pages/services/DigitalMarketingPage';
 import SocialMediaMarketing from './pages/services/SocialMediaMarketingPage';
 
 const App = () => {
+  //const basename = process.env.NODE_ENV === 'production' ? '/drivelogix' : '/';
   return (
-    <Router basename="/drivelogix">
+  //  <Router basename={basename}>
+    <Router >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/technologies/react" element={<ReactDetail />} />

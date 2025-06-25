@@ -12,6 +12,7 @@ nav{
     z-index: 10;
     padding: 1vh 0 1vh 0.5vw;
 }
+
 .logo{
     width: 100px;
     height: 80px;  
@@ -26,5 +27,19 @@ nav ul li{
 .dark-nav{
     /* background: #6e75b6; */
     transition: 0.5s;
-    background: #FAFFFA;
+    background: #FAFFFA;       
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+nav .nav-link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav.dark-nav .nav-link {
+  color: #1f67d4;
 }
